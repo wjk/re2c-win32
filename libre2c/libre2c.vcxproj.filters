@@ -27,9 +27,6 @@
     <ClCompile Include="readmem.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="readrand.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="scan.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -48,9 +45,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="readmem.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="readrand.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="scan.h">

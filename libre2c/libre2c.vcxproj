@@ -23,7 +23,6 @@
     <ClCompile Include="readfd.c" />
     <ClCompile Include="readfp.c" />
     <ClCompile Include="readmem.c" />
-    <ClCompile Include="readrand.c" />
     <ClCompile Include="scan-dyn.c" />
     <ClCompile Include="scan.c" />
   </ItemGroup>
@@ -32,7 +31,6 @@
     <ClInclude Include="readfd.h" />
     <ClInclude Include="readfp.h" />
     <ClInclude Include="readmem.h" />
-    <ClInclude Include="readrand.h" />
     <ClInclude Include="scan-dyn.h" />
     <ClInclude Include="scan.h" />
   </ItemGroup>
