@@ -181,6 +181,7 @@
     <ClInclude Include="range.h" />
     <ClInclude Include="range_suffix.h" />
     <ClInclude Include="re.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="scanner.h" />
     <ClInclude Include="smart_ptr.h" />
     <ClInclude Include="stream_lc.h" />
@@ -193,6 +194,9 @@
     <ClInclude Include="utf8_range.h" />
     <ClInclude Include="utf8_regexp.h" />
     <ClInclude Include="y.tab.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="re2c.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
