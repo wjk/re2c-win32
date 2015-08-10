@@ -282,6 +282,10 @@ protected:
 			}
 		}
 		if (cnt != 0) {
+			// Suppress cast-truncation warning for this line only.
+			// Attempting to solve it properly (by inserting an
+			// explicit cast) doesn't work in this case.
+#pragma warning(suppress: 4244)
 			return fwrite(buf, sizeof(_E), cnt, fp);
 		} else {
 			return 0;

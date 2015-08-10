@@ -2493,7 +2493,7 @@ char *Scanner::fill(char *cursor, uint need)
 		}
 		/* Append to buffer. */
 		in.read(lim, need);
-		if ((cnt = in.gcount()) != need)
+		if ((cnt = (re2c::uint)in.gcount()) != need)
 		{
 			eof = &lim[cnt];
 			*eof++ = '\0';

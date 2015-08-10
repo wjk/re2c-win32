@@ -37,7 +37,7 @@ Str::Str(const SubStr& s)
 }
 
 Str::Str(const char *s)
-	: SubStr(strdup(s), strlen(s))
+	: SubStr(_strdup(s), strlen(s))
 {
 	;
 }
