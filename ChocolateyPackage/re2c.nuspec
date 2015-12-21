@@ -9,9 +9,7 @@
     <owners>William Kent</owners>
     <summary>The re2c parser generator compiler for C/C++</summary>
     <description>
-      `re2c` is a small program that compiles regular expression-based grammars
-	  to C or C++. Specify grammars inside a comment block that starts with `/*!re2c`,
-	  and re2c will produce standards-compliant C or C++ code with no external dependencies.
+`re2c` is a small program that compiles regular expression-based grammars to C or C++. Specify grammars inside a comment block that starts with `/*!re2c`, and re2c will produce standards-compliant C or C++ code with no external dependencies.
     </description>
     <projectUrl>http://sourceforge.net/projects/re2c/</projectUrl>
     <packageSourceUrl>https://github.com/wjk/re2c-win32</packageSourceUrl>
