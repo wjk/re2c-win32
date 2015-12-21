@@ -12,7 +12,10 @@
 `re2c` is a small program that compiles regular expression-based grammars to C or C++. Specify grammars inside a comment block that starts with `/*!re2c`, and re2c will produce standards-compliant C or C++ code with no external dependencies.
     </description>
     <projectUrl>http://sourceforge.net/projects/re2c/</projectUrl>
-    <packageSourceUrl>https://github.com/wjk/re2c-win32</packageSourceUrl>
+    <packageSourceUrl>https://github.com/wjk/re2c-win32/ChocolateyPackage</packageSourceUrl>
+    <projectSourceUrl>https://github.com/wjk/re2c-win32</projectSourceUrl>
+    <docsUrl>http://re2c.org/manual/manual.html</docsUrl>
+    <bugTrackerUrl>https://github.com/wjk/re2c-win32/issues</bugTrackerUrl>
     <tags>re2c regex compiler</tags>
     <copyright>Public Domain</copyright>
     <licenseUrl>https://github.com/wjk/re2c-win32/blob/master/LICENSE.md</licenseUrl>
