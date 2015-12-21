@@ -20,6 +20,6 @@
     <releaseNotes>Initial release to Chocolatey.org</releaseNotes>
   </metadata>
   <files>
-    <file src="tools\**" target="tools" />
+    <file src="tools\re2c.exe" target="tools" />
   </files>
 </package>
